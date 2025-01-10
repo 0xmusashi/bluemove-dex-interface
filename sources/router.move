@@ -1,6 +1,6 @@
 #[allow(unused_type_parameter, unused_variable, unused_function, unused_mut_parameter)]
-module interface::router {
-    use interface::swap;
+module bluemove::router {
+    use bluemove::swap;
 
     public entry fun add_liquidity<T0, T1>(arg0: u64, arg1: 0x2::coin::Coin<T0>, arg2: u64, arg3: 0x2::coin::Coin<T1>, arg4: u64, arg5: u64, arg6: &mut swap::Dex_Info, arg7: &mut 0x2::tx_context::TxContext) {
         abort 0

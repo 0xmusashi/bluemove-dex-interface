@@ -1,5 +1,5 @@
 #[allow(unused_type_parameter, unused_variable, unused_function, unused_mut_parameter, unused_field)]
-module interface::swap {
+module bluemove::swap {
     public struct Created_Pool_Event has copy, drop {
         pool_id: 0x2::object::ID,
         creator: address,
